@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3"
+  }
+}
