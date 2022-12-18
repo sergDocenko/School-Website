@@ -82,5 +82,7 @@ img {
 
 .btn_primary {
    background-color: var(--color-danger);
+   
    color: var(--color-white);
+   /* border-radius: 0.4rem; */
 }
