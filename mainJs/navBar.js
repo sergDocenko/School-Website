@@ -1,7 +1,7 @@
 
 const navBar = document.createElement('nav');
 navBar.innerHTML = ` <div class="container nav_container">
-<a href="index.html"> <h4>School</h4> </a>
+<a href="index.html"> <h4>ART</h4> </a>
 <menu class="nav_menu">
   <li class="nav_menu__close">
     <a class="active_link" href="index.html"> Home </a>
@@ -21,6 +21,7 @@ navBar.innerHTML = ` <div class="container nav_container">
 </button>
 <button  class="menu__close">
   <i class="uil uil-multiply"></i>
+  
 </button>
 </div>`;
 

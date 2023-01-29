@@ -16,72 +16,75 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <!-------- Swiper Js ----------------->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="./css//style.css" />
   </head>
   <body>
     <script type="module" src="./mainJs/navBar.js"></script>
 
-    <header>
-      <div class="container header_container">
-        <div class="header_left">
-          <h1>Grow your skills to advance your career path</h1>
+    <section class="title-block">
+      <div class="title-block__bg-blur"></div>
+      <div class="container title-block_container">
+        <div class="title-block_left">
+          <h1>Приветствую на моём творческом сайте!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quas, voluptate quasi quia dicta ratione
-            tempora id porro voluptatem animi distinctio odit fugit ad veniam assumenda adipisci nam minus quisquam.
+            Тут представлены работы в различных техниках и стилях, которые отображают определённые этапы моей жизни.
+            Здесь каждый найдёт для себя что-то интересное
           </p>
-          <a href="courses.html" class="btn btn_primary"> Get Started</a>
+          <a href="contact.html" class="btn btn_primary"> Go to Contacts </a>
         </div>
-        <div class="header_right">
-          <img src="./images/header.svg" alt="" />
+        <div class="title-block_right">
+          <div class="title-block__img">
+            <img src="./images/primary_viola.jpg" alt="" />
+          </div>
+          <div class="title-block_right__socials">
+            <a href="http://twitter.com" target="_blank"> <i class="uil uil-instagram"></i> </a>
+            <a href="http://instagram.com" target="_blank"> <i class="uil uil-twitter-alt"></i> </a>
+          </div>
         </div>
       </div>
-    </header>
-    <!-------- End Of Header --------->
+    </section>
+    <!-------- End Of Title Block --------->
 
     <section class="categories">
       <div class="container category_container">
         <div class="categories_left">
           <h1>Categories</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum eaque autem facere, voluptatibus a,
-            accusamus tempora illo id commodi facilis, similique adipisci? Nemo, iusto mollitia cupiditate est harum
-            fuga.
+            В этом разделе представлены ссылки на различные стили и техники, в которых я работаю. Перейдя по каждой из
+            них, вы окунётесь в мир творческого разнообразия, которое не оставит раводушным!
           </p>
-          <a href="#" class="btn"> Learn More</a>
         </div>
         <div class="categories_right">
           <article class="category">
-            <span class="category_icon"><i class="uil uil-bitcoin-circle"></i></span>
-            <h5>Blockchain</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet</p>
+            <span class="category_icon"><img src="./images/svg/nft-cart.svg" /></span>
+            <h5>NFT</h5>
+            <p>Работы в разных стилях, переведённые в NFT</p>
           </article>
           <article class="category">
-            <span class="category_icon"><i class="uil uil-palette"></i></span>
-            <h5>Graphic Design</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet</p>
+            <span class="category_icon"><img src="./images/svg/drawing-tablet.svg" /></span>
+            <h5>Digital Art</h5>
+            <p>Цифровые работы с использованием различных графических редакторов</p>
           </article>
           <article class="category">
-            <span class="category_icon"><i class="uil uil-dollar-alt"></i></span>
-            <h5>Finance</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet</p>
+            <span class="category_icon"><img src="./images/svg/photo-frame.svg" /></span>
+            <h5>Portrait</h5>
+            <p>Живописные, грфические или в смешанной технике</p>
           </article>
           <article class="category">
-            <span class="category_icon"><i class="uil uil-megaphone"></i></span>
-            <h5>Marketing</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet</p>
+            <span class="category_icon"><img src="./images/svg/pencil.svg" /></span>
+            <h5>Graphics</h5>
+            <p>Различные композиции карандашом, гуашью или тушью</p>
           </article>
           <article class="category">
-            <span class="category_icon"><i class="uil uil-music"></i></span>
-            <h5>Music</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet</p>
+            <span class="category_icon"><img src="./images/svg/canvas.svg " /></span>
+            <h5>Painting</h5>
+            <p>Пейзажи и натюрморты маслом</p>
           </article>
           <article class="category">
-            <span class="category_icon"><i class="uil uil-puzzle-piece"></i></span>
-            <h5>Business</h5>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad amet</p>
+            <span class="category_icon"><img src="./images/svg/paint-brush_2.svg" /></span>
+            <h5>Wall Decor</h5>
+            <p>Роспись стен, рельеф и другие виды декора</p>
           </article>
         </div>
       </div>
@@ -89,18 +92,16 @@
     <!---  End of Categories  --->
 
     <section class="courses">
-      <h2>Our Popular Courses</h2>
+      <h2>Основные направления моего творчества</h2>
       <div class="container courses_container">
         <article class="course">
+          
           <div class="course_img">
             <img src="./images/course1.jpg" alt="" />
           </div>
           <div class="course_info">
-            <h4>Responsive Social Media Website UI Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate optio debitis maiores
-              necessitatibus! Optio, explicabo.
-            </p>
+            <h4>Авторские NFT коллекции</h4>
+            <p>Собрание созданных мной оригинальных работ, переведённых в NFT. Каждая NFT коллекция уникальна</p>
           </div>
           <a href="courses.html" class="btn btn_primary"> Learn More </a>
         </article>
@@ -109,11 +110,8 @@
             <img src="./images/course2.jpg" alt="" />
           </div>
           <div class="course_info">
-            <h4>Responsive SmartHome Website Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate optio debitis maiores
-              necessitatibus! Optio, explicabo.
-            </p>
+            <h4>Традиционное творчество</h4>
+            <p>Картины маслом, художественная роспись, барельефы, графика и всё что создано традиционным образом</p>
           </div>
           <a href="courses.html" class="btn btn_primary"> Learn More </a>
         </article>
@@ -122,10 +120,10 @@
             <img src="./images/course3.jpg" alt="" />
           </div>
           <div class="course_info">
-            <h4>Responsive Admin Dashboard UI Design</h4>
+            <h4>Цифровое искусство</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate optio debitis maiores
-              necessitatibus! Optio, explicabo.
+              Мои художественные работы, реализованные при помощи графических редакторов, с использованием компьютера и
+              графического планшета
             </p>
           </div>
           <a href="courses.html" class="btn btn_primary"> Learn More </a>
@@ -134,7 +132,7 @@
     </section>
     <!-------- End of Courses ------->
 
-    <section class="faqs">
+    <!-- <section class="faqs">
       <h2>Frequency Asked Question</h2>
       <div class="container faqs_container">
         <article class="faq">
@@ -203,172 +201,13 @@
             </p>
           </div>
         </article>
-        <article class="faq">
-          <div class="faq_icon"><span>+</span></div>
-          <div class="question_answer">
-            <h4>How do I know the right courses for me?</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, vero doloremque. Tenetur dolores vero
-              aperiam quam, atque delectus magni a exercitationem dolor. Adipisci enim corrupti expedita architecto
-              tempora tenetur atque.
-            </p>
-          </div>
-        </article>
-        <article class="faq">
-          <div class="faq_icon"><span>+</span></div>
-          <div class="question_answer">
-            <h4>How do I know the right courses for me?</h4>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, vero doloremque. Tenetur dolores vero
-              aperiam quam, atque delectus magni a exercitationem dolor. Adipisci enim corrupti expedita architecto
-              tempora tenetur atque.
-            </p>
-          </div>
-        </article>
       </div>
-    </section>
+    </section> -->
 
     <!------------------- End of FAQ ------->
 
-    <section class="testimonials container swiper mySwiper">
-      <h2>Students Testimonials</h2>
-      <div class="swiper-wrapper">
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar1.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Diana Ayi</h5>
-            <small> student </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar2.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Ernest Achiever</h5>
-            <small> Web Developer </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar3.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Edem Quist</h5>
-            <small> student </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar4.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Hajia Bintu</h5>
-            <small> student </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar5.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Jane Due</h5>
-            <small> student </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar6.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Miss Kayla</h5>
-            <small> Web Developer </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-        <article class="testimonial swiper-slide">
-          <div class="avatar">
-            <img src="./images/avatar7.jpg" alt="" />
-          </div>
-          <div class="testimonial_info">
-            <h5>Yaa Asantewaa</h5>
-            <small> Web Developer </small>
-          </div>
-          <div class="testimonial_content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quo doloremque dolorem illum hic nihil
-              minus rem voluptatem fugit, labore earum cum voluptates laudantium harum cupiditate ut temporibus
-              recusandae sed.
-            </p>
-          </div>
-        </article>
-      </div>
-      <div class="swiper-pagination"></div>
-    </section>
-    <!---------------------End of testimonials --------------------->
-
     <script src="./mainJs/footer.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./mainJs/main.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          700: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-          },
-        },
-      });
-    </script>
   </body>
 </html>
